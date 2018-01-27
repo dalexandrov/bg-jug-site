@@ -908,7 +908,7 @@
 
       console.log("Id: "+articleId)
 
-      axios.get('/api/articles/'+articleId)
+      axios.get('/api/v1/articles/'+articleId)
         .then(response => {
           this.article = response.data
         })

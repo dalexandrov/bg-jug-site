@@ -898,7 +898,7 @@
       }
     },
     created() {
-      axios.get(`/api/articles/`)
+      axios.get(`/api/v1/articles/`)
         .then(response => {
           this.articles = response.data
         })

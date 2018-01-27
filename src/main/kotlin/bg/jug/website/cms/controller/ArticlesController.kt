@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController
  * Created by Dmitry Alexandrov on 13.01.2018.
  */
 @RestController
-@RequestMapping("/api/articles")
+@RequestMapping("/api/v1/articles")
 class ArticlesController {
 
     @Autowired
